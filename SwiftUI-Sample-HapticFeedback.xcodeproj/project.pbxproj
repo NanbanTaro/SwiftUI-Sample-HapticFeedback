@@ -14,6 +14,8 @@
 		90DCED362C96848D001C0805 /* SwiftUI_Sample_HapticFeedbackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCED352C96848D001C0805 /* SwiftUI_Sample_HapticFeedbackTests.swift */; };
 		90DCED402C96848D001C0805 /* SwiftUI_Sample_HapticFeedbackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCED3F2C96848D001C0805 /* SwiftUI_Sample_HapticFeedbackUITests.swift */; };
 		90DCED422C96848D001C0805 /* SwiftUI_Sample_HapticFeedbackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCED412C96848D001C0805 /* SwiftUI_Sample_HapticFeedbackUITestsLaunchTests.swift */; };
+		90DCED4F2C972002001C0805 /* HapticFeedbackSampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCED4E2C972002001C0805 /* HapticFeedbackSampleListView.swift */; };
+		90DCED512C972093001C0805 /* GoodButtonSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCED502C972093001C0805 /* GoodButtonSampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		90DCED3B2C96848D001C0805 /* SwiftUI-Sample-HapticFeedbackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Sample-HapticFeedbackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DCED3F2C96848D001C0805 /* SwiftUI_Sample_HapticFeedbackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Sample_HapticFeedbackUITests.swift; sourceTree = "<group>"; };
 		90DCED412C96848D001C0805 /* SwiftUI_Sample_HapticFeedbackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Sample_HapticFeedbackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90DCED4E2C972002001C0805 /* HapticFeedbackSampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackSampleListView.swift; sourceTree = "<group>"; };
+		90DCED502C972093001C0805 /* GoodButtonSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodButtonSampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				90DCED242C96848C001C0805 /* SwiftUI_Sample_HapticFeedbackApp.swift */,
 				90DCED262C96848C001C0805 /* ContentView.swift */,
+				90DCED4E2C972002001C0805 /* HapticFeedbackSampleListView.swift */,
+				90DCED502C972093001C0805 /* GoodButtonSampleView.swift */,
 				90DCED282C96848D001C0805 /* Assets.xcassets */,
 				90DCED2A2C96848D001C0805 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				90DCED272C96848C001C0805 /* ContentView.swift in Sources */,
+				90DCED4F2C972002001C0805 /* HapticFeedbackSampleListView.swift in Sources */,
 				90DCED252C96848C001C0805 /* SwiftUI_Sample_HapticFeedbackApp.swift in Sources */,
+				90DCED512C972093001C0805 /* GoodButtonSampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
